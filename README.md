@@ -1,3 +1,47 @@
+
+Tech Stack
+
+React Native - Cross-platform mobile app development.
+
+TypeScript - Strongly-typed safety & maintainability.
+
+React Hooks (useState, useEffect, useMemo) - State management & optimizations.
+
+FlatList - High-performance list rendering.
+
+Jest & React Testing Library - Unit & integration testing.
+
+
+Key Features & Implementation
+
+Real-time Price Updates (random fluctuations every 5s using setInterval).
+
+Infinite Scroll with High FPS (Virtualized FlatList for performance).
+
+Filtering & Sorting
+
+Filter by Performance: Top Gainers, Top Losers.
+
+Filter by Type: Stocks, Crypto.
+
+Sort by Name & Performance (ascending & descending).
+
+Detailed Asset View (Without Navigation)
+
+Clicking an asset shows details within the same screen.
+
+Similar assets are listed with sorting controls.
+
+Unit & Integration Tests
+
+Testing filtering, sorting, and price updates.
+
+
+Applied Optimizations
+
+✅ Virtualized Lists (FlatList) → Efficiently handles large datasets.✅ useMemo() for Filtering & Sorting → Prevents unnecessary recalculations.✅ Functional Updates for useState → Reduces unnecessary state updates.✅ Debounced Infinite Scroll Fetching → Prevents unnecessary re-renders.
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
